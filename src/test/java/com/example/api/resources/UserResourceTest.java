@@ -3,6 +3,7 @@ package com.example.api.resources;
 import com.example.api.domain.User;
 import com.example.api.domain.dto.UserDTO;
 import com.example.api.repositories.UserRepository;
+import com.example.api.services.exceptions.DataIntegrityViolationException;
 import com.example.api.services.exceptions.ObjectNotFoundException;
 import com.example.api.services.impl.UserServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +13,6 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.List;
 import java.util.Optional;
@@ -115,12 +115,25 @@ class UserResourceTest {
             service.create(userDTO);
         }catch (Exception ex){
             assertEquals(DataIntegrityViolationException.class, ex.getClass());
-            assertEquals("Objeto não encontrado!", ex.getMessage());
+            assertEquals("E-mail já cadastrado no sistema.", ex.getMessage());
         }
+
     }
 
     @Test
-    void update() {
+    void whenUpdateThenReturnSuccess() {
+        when(repository.save(any())).thenReturn(user);
+
+        User response = service.update(userDTO);
+
+        assertNotNull(response);
+        assertEquals(User.class, response.getClass());
+
+        assertEquals(ID, response.getId());
+        assertEquals(NAME, response.getName());
+        assertEquals(EMAIL, response.getEmail());
+        assertEquals(PASSWORD, response.getPassword());
+
     }
 
     @Test
