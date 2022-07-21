@@ -137,6 +137,20 @@ class UserResourceTest {
     }
 
     @Test
+    void whenUpdateThenReturnAnDataIntegrityViolationException() {
+        when(repository.findByEmail(any())).thenReturn(optionalUser);
+
+        try {
+            optionalUser.get().setId(2);
+            service.create(userDTO);
+        }catch (Exception ex){
+            assertEquals(DataIntegrityViolationException.class, ex.getClass());
+            assertEquals("E-mail já cadastrado no sistema.", ex.getMessage());
+        }
+
+    }
+
+    @Test
     void delete() {
     }
 
