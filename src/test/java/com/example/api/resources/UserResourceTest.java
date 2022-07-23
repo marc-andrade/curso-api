@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @SpringBootTest
 class UserResourceTest {
@@ -64,7 +64,7 @@ class UserResourceTest {
     }
 
     @Test
-    void findAll() {
+    void whenFindAllReturnAnListOfUserDTO() {
         when(service.findAll()).thenReturn(List.of(user));
         when(mapper.map(any(),any())).thenReturn(userDTO);
 
@@ -84,15 +84,44 @@ class UserResourceTest {
     }
 
     @Test
-    void creat() {
+    void whenCreateThenReturnCreated() {
+        when(service.create(any())).thenReturn(user);
+
+        ResponseEntity<UserDTO> response = resource.create(userDTO);
+
+        assertEquals(ResponseEntity.class, response.getClass());
+        assertEquals(HttpStatus.CREATED, response.getStatusCode());
+        assertNotNull(response.getHeaders().get("Location"));
     }
 
     @Test
-    void update() {
+    void whenUpdateReturnSuccess() {
+        when(service.update(any())).thenReturn(user);
+        when(mapper.map(any(),any())).thenReturn(userDTO);
+
+        ResponseEntity<UserDTO> response = resource.update(ID,userDTO);
+
+        assertNotNull(response);
+        assertNotNull(response.getBody());
+        assertEquals(ResponseEntity.class, response.getClass());
+        assertEquals(UserDTO.class, response.getBody().getClass());
+
+        assertEquals(ID, response.getBody().getId());
+        assertEquals(NAME, response.getBody().getName());
+        assertEquals(EMAIL, response.getBody().getEmail());
+
     }
 
     @Test
     void delete() {
+        doNothing().when(service).delete(anyInt());
+
+        ResponseEntity<UserDTO> response = resource.delete(ID);
+
+        assertNotNull(response);
+        assertEquals(ResponseEntity.class, response.getClass());
+        verify(service, times(1)).delete(anyInt());
+        assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
     }
 
     public void starterUser(){
