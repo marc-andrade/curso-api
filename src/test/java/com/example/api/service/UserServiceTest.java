@@ -78,7 +78,7 @@ class UserServiceTest {
     void whenFindAllThenReturnAnListOfUsers() {
         when(repository.findAll()).thenReturn(List.of(user));
 
-        List<User> response = repository.findAll();
+        List<User> response = service.findAll();
 
         assertNotNull(response);
         assertEquals(1, response.size());
