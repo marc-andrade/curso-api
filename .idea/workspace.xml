@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5f39c4-b7a6-47e9-8989-763dbbded93d" name="Changes" comment="teste" />
+    <list default="true" id="ce5f39c4-b7a6-47e9-8989-763dbbded93d" name="Changes" comment="teste">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a66efa62-d9ee-4a8f-aa55-9a6e938cb284.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a66efa62-d9ee-4a8f-aa55-9a6e938cb284.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_07_2022_22_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_07_2022_22_43__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/api/ApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/api/ApiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/api/resources/UserResourceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/api/resources/exceptions/ResourceExceptionHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/api/service/UserServiceTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +28,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="develop" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -41,7 +55,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1658627214" />
+                    <option name="lastUsedInstant" value="1658628884" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
@@ -124,6 +138,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.api" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.api.resources.exceptions" />
       <recent name="com.example.api.resources" />
@@ -132,7 +149,7 @@
       <recent name="com.example.api.services.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in api">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="All in api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="PACKAGE_NAME" value="" />
@@ -212,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in api" />
         <item itemvalue="JUnit.UserResourceTest.whenCreateThenReturnCreated" />
         <item itemvalue="JUnit.UserResourceTest.delete" />
         <item itemvalue="JUnit.ResourceExceptionHandlerTest.whenObjectNotFoundExceptionThenReturnAResponseEntity" />
         <item itemvalue="JUnit.com.example.api in api" />
-        <item itemvalue="JUnit.All in api" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +269,7 @@
       <workItem from="1658611378575" duration="7130000" />
       <workItem from="1658626838153" duration="456000" />
       <workItem from="1658627337278" duration="105000" />
+      <workItem from="1658629595682" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="Classe Usuario">
       <created>1658116992415</created>
