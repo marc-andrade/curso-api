@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce5f39c4-b7a6-47e9-8989-763dbbded93d" name="Changes" comment="teste" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1658627214" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1658627039" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="427c65d0-6619-49e4-8c91-9e4add35bef2" />
+        <option name="url" value="https://github.com/marc-andrade/curso-api.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2C6EVJHcXqllXIFr9icC1qBXQc4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marco/eclipse-workspace/imersao-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8a5da52ed126447d359e70c05721a8aa&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.api.resources.exceptions" />
+      <recent name="com.example.api.resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.api.services.exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in api">
+    <configuration name="All in api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceExceptionHandlerTest.whenObjectNotFoundExceptionThenReturnAResponseEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.api.resources.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.api.resources.exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.example.api.resources.exceptions.ResourceExceptionHandlerTest" />
+      <option name="METHOD_NAME" value="whenObjectNotFoundExceptionThenReturnAResponseEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserResourceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.api.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.api.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.example.api.resources.UserResourceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserResourceTest.whenCreateThenReturnCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.api.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.api.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.example.api.resources.UserResourceTest" />
+      <option name="METHOD_NAME" value="whenCreateThenReturnCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.api in api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.api" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserResourceTest.whenCreateThenReturnCreated" />
+        <item itemvalue="JUnit.UserResourceTest.delete" />
+        <item itemvalue="JUnit.ResourceExceptionHandlerTest.whenObjectNotFoundExceptionThenReturnAResponseEntity" />
+        <item itemvalue="JUnit.com.example.api in api" />
+        <item itemvalue="JUnit.All in api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce5f39c4-b7a6-47e9-8989-763dbbded93d" name="Changes" comment="" />
+      <created>1658114664519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658114664519</updated>
+      <workItem from="1658114665686" duration="491000" />
+      <workItem from="1658115254174" duration="1468000" />
+      <workItem from="1658116777885" duration="215000" />
+      <workItem from="1658117621283" duration="1336000" />
+      <workItem from="1658119001959" duration="209000" />
+      <workItem from="1658119241043" duration="2740000" />
+      <workItem from="1658137544049" duration="5205000" />
+      <workItem from="1658147207280" duration="579000" />
+      <workItem from="1658264300494" duration="233000" />
+      <workItem from="1658318224585" duration="42000" />
+      <workItem from="1658318842905" duration="393000" />
+      <workItem from="1658319258545" duration="268000" />
+      <workItem from="1658319569497" duration="4790000" />
+      <workItem from="1658346896984" duration="9057000" />
+      <workItem from="1658365416955" duration="15000" />
+      <workItem from="1658371952564" duration="154000" />
+      <workItem from="1658438804086" duration="5165000" />
+      <workItem from="1658493094846" duration="1788000" />
+      <workItem from="1658532883030" duration="1837000" />
+      <workItem from="1658596587795" duration="702000" />
+      <workItem from="1658605704677" duration="3357000" />
+      <workItem from="1658611378575" duration="7130000" />
+      <workItem from="1658626838153" duration="456000" />
+      <workItem from="1658627337278" duration="105000" />
+    </task>
+    <task id="LOCAL-00001" summary="Classe Usuario">
+      <created>1658116992415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658116992415</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Classe User">
+      <created>1658118823577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658118823577</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Classe User resource findById">
+      <created>1658120003299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658120003300</updated>
+    </task>
+    <task id="LOCAL-00004" summary="interface user repository">
+      <created>1658122358202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658122358202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Perfil de testes">
+      <created>1658140058190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658140058190</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dependecia para model mapper">
+      <created>1658142165664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658142165664</updated>
+    </task>
+    <task id="LOCAL-00007" summary="atualizações">
+      <created>1658142203995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658142203995</updated>
+    </task>
+    <task id="LOCAL-00008" summary="disponibilizando um Model mapper em forma de bean">
+      <created>1658142867348</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658142867348</updated>
+    </task>
+    <task id="LOCAL-00009" summary="retornando dto para user resource">
+      <created>1658142891532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658142891532</updated>
+    </task>
+    <task id="LOCAL-00010" summary="endpoint findAll para User.">
+      <created>1658320760741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658320760741</updated>
+    </task>
+    <task id="LOCAL-00011" summary="endpoint creat para User.">
+      <created>1658322833349</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658322833349</updated>
+    </task>
+    <task id="LOCAL-00012" summary="atualização para email cadastrado no update de user">
+      <created>1658351157383</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658351157384</updated>
+    </task>
+    <task id="LOCAL-00013" summary="endpoint delete para user">
+      <created>1658352107741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658352107741</updated>
+    </task>
+    <task id="LOCAL-00014" summary="teste para classe user service metodo findById objeto não encontrado">
+      <created>1658440849455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658440849455</updated>
+    </task>
+    <task id="LOCAL-00015" summary="teste para classe user service metodo create com excessao">
+      <created>1658443130100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658443130100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="teste para classe user service metodo update com sucesso">
+      <created>1658443800162</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658443800162</updated>
+    </task>
+    <task id="LOCAL-00017" summary="teste para classe user service metodo update com sucesso com excessão">
+      <created>1658444021257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658444021257</updated>
+    </task>
+    <task id="LOCAL-00018" summary="teste para classe user service metodo delete com sucesso com sucesso">
+      <created>1658494379337</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658494379337</updated>
+    </task>
+    <task id="LOCAL-00019" summary="teste para endpoint findById implementado para user resource">
+      <created>1658609683559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658609683559</updated>
+    </task>
+    <task id="LOCAL-00020" summary="teste para endpoint findAll implementado para user resource">
+      <created>1658611811390</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658611811390</updated>
+    </task>
+    <task id="LOCAL-00021" summary="teste para endpoint update e delete implementado para user resource">
+      <created>1658617643865</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658617643865</updated>
+    </task>
+    <task id="LOCAL-00022" summary="teste para manipulador de excessoes metodo objectNotFound">
+      <created>1658618844732</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658618844732</updated>
+    </task>
+    <task id="LOCAL-00023" summary="teste para manipulador de excessoes metodo dataIntegrity">
+      <created>1658622494748</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658622494748</updated>
+    </task>
+    <task id="LOCAL-00024" summary="removendo anotacoes nao usadas">
+      <created>1658622518800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658622518800</updated>
+    </task>
+    <task id="LOCAL-00025" summary="removendo Bug">
+      <created>1658624838939</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658624838939</updated>
+    </task>
+    <task id="LOCAL-00026" summary="arquivo para deploy">
+      <created>1658626471564</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658626471564</updated>
+    </task>
+    <task id="LOCAL-00027" summary="teste">
+      <created>1658627147282</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658627147282</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="interface user repository" />
+    <MESSAGE value="Perfil de testes" />
+    <MESSAGE value="dependecia para model mapper" />
+    <MESSAGE value="atualizações" />
+    <MESSAGE value="disponibilizando um Model mapper em forma de bean" />
+    <MESSAGE value="retornando dto para user resource" />
+    <MESSAGE value="endpoint findAll para User." />
+    <MESSAGE value="endpoint creat para User." />
+    <MESSAGE value="atualização para email cadastrado no update de user" />
+    <MESSAGE value="endpoint delete para user" />
+    <MESSAGE value="teste para classe user service metodo findById objeto não encontrado" />
+    <MESSAGE value="teste para classe user service metodo findAll" />
+    <MESSAGE value="teste para classe user service metodo create com excessao" />
+    <MESSAGE value="teste para classe user service metodo update com sucesso" />
+    <MESSAGE value="teste para classe user service metodo update com sucesso com excessão" />
+    <MESSAGE value="teste para classe user service metodo delete com sucesso com sucesso" />
+    <MESSAGE value="teste para endpoint findById implementado para user resource" />
+    <MESSAGE value="teste para endpoint findAll implementado para user resource" />
+    <MESSAGE value="teste para endpoint update e delete implementado para user resource" />
+    <MESSAGE value="teste para manipulador de excessoes metodo objectNotFound" />
+    <MESSAGE value="teste para manipulador de excessoes metodo dataIntegrity" />
+    <MESSAGE value="removendo anotacoes nao usadas" />
+    <MESSAGE value="removendo Bug" />
+    <MESSAGE value="arquivo para deploy" />
+    <MESSAGE value="teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api$com_example_api_in_api.ic" NAME="com.example.api in api Coverage Results" MODIFIED="1658622199283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/api$All_in_api.ic" NAME="All in api Coverage Results" MODIFIED="1658624719364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
